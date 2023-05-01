@@ -1,5 +1,10 @@
 import './globals.css';
 
+export const metadata = {
+  title: 'Home',
+  description: 'Welcome to Next.js',
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -7,7 +12,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head />
       <body>{children}</body>
     </html>
   );

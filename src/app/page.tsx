@@ -1,7 +1,10 @@
-export default function Home() {
+import TravelLogForm from '@/components/TravelLogForm';
+
+export default async function Home() {
   return (
-    <main>
-      <h1>Hello 🌈</h1>
+    <main className="flex flex-col items-center">
+      <h1 className="font-bold text-4xl py-8">Travel Logger 🏖️</h1>
+      <TravelLogForm />
     </main>
   );
 }
